@@ -1,0 +1,52 @@
+.cover-background{
+    background-image: url(./images/LA\ sunset\ background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white
+}
+
+
+
+#book{
+    background-image: url(./images/intercontinental_hotel.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.book-section-font{
+    color: white
+}
+
+.gradient-background-foods {
+    background: linear-gradient(300deg, #FAF1E4, #CEDEBD, #9EB384);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    height: 100vh;
+  }
+
+.gradient-background-views{
+    background: linear-gradient(300deg, #FFEECC, #FFDDCC, #FFCCCC);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    height: 100vh;
+}
+
+.gradient-background-fun{
+    background: linear-gradient(300deg, #78C1F3, #9BE8D8, #E2F6CA);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    height: 100vh;
+}
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
